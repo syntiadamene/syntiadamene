@@ -1,0 +1,224 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+header {
+  background-color: #002157;
+  color: white;
+  padding-top: 10px; /* Réduire la hauteur du padding en haut */
+  padding-bottom: 10px; /* Réduire la hauteur du padding en bas */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px 10px 0 0;
+}
+
+
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+ 
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.center-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: #004999;
+}
+
+section.top-page {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #002157;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 0 0 10px 10px;
+}
+
+.footer {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  margin: 0 10px;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.btn a:hover {
+  text-decoration: underline;
+}
+
+.vue_connexion {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vue_connexion input[type="email"],
+.vue_connexion input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.vue_connexion input[type="submit"] {
+  background-color: #002157;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.vue_connexion input[type="submit"]:hover {
+  background-color: #004999;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E4F1FF;
+  margin-bottom: 10px;
+}
+
+.circle img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#logo {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  float: left;
+  border-radius: 5px;
+  padding: 5px 10px;
+  
+}
+header {
+  background-color: #002157;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px 10px 0 0;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.icon-section {
+  display: flex;
+  align-items: center;
+}
+
+.icon-section .nav {
+  margin-left: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: #004999;
+}
+ol {
+  margin: 0;
+  padding: 0;
+  }
+
